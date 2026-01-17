@@ -4,11 +4,6 @@ import Entity.Job;
 import adt.LinkedList;
 import adt.ListInterface;
 
-/**
- *
- * @author Leau
- */
-
 public class JobControl {
     private ListInterface<Job> jobList = new LinkedList<>();
 
@@ -253,4 +248,5 @@ public class JobControl {
             }
         }
     }
+
 }
