@@ -1,9 +1,5 @@
 package Entity;
 
-/**
- *
- * @author Hao Lun
- */
 public class Match {
     private Applicant applicant;
     private Job job;
@@ -53,4 +49,5 @@ public class Match {
     public static int compareByScoreDesc(Match m1, Match m2) {
         return Double.compare(m2.getMatchScore(), m1.getMatchScore());
     }
+
 }
