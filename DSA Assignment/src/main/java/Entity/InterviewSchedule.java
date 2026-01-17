@@ -5,10 +5,6 @@ import java.time.LocalTime;
 import adt.LinkedList;
 import adt.ListInterface;
 
-/**
- *
- * @author Yi Linag
- */
 public class InterviewSchedule {
     
     private Applicant applicant;
@@ -86,3 +82,4 @@ public class InterviewSchedule {
     
     
 }
+
