@@ -1,8 +1,5 @@
 package Entity;
-/**
- *
- * @author Leau
- */
+
 public class Job {
     private static int jobCounter = 1;
     private String jobID;
@@ -98,3 +95,4 @@ public class Job {
             interviewStartTime, interviewEndTime, skillsStr.toString());
     }
 }
+
