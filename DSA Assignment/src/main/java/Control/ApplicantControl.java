@@ -5,10 +5,6 @@ import Entity.Applicant;
 import adt.LinkedList;
 import adt.ListInterface;
 
-/**
- * 
- * @author Wiston
- */
 public class ApplicantControl {
     private LinkedList<Applicant> applicantList;
     private JobControl jobControl;
@@ -109,4 +105,5 @@ public class ApplicantControl {
         return applicantList.filter(applicant -> 
             applicant != null && location.equals(applicant.getLocation()));
     }
+
 }
