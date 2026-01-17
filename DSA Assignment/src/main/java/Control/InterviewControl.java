@@ -15,10 +15,6 @@ import Boundary.MatchUI;
 import adt.LinkedList;
 import adt.ListInterface;
 
-/**
- *
- * @author Yi Liang
- */
 public class InterviewControl {
 
     private LinkedList<InterviewSchedule> interviewList;
@@ -551,3 +547,4 @@ public class InterviewControl {
     }
 
 }
+
