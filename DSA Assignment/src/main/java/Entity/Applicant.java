@@ -3,10 +3,6 @@ package Entity;
 import adt.LinkedList;
 import adt.ListInterface;
 
-/**
- * 
- * @author Wiston
- */
 public class Applicant {
     private static int applicantCounter = 1;
     private String applicantId;
@@ -233,4 +229,5 @@ public class Applicant {
             applicationsStr.length() > 0 ? applicationsStr.toString() : "None"
         );
     }
+
 }
