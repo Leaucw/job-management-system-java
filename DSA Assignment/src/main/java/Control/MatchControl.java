@@ -5,10 +5,7 @@ import Entity.Job;
 import Entity.Match;
 import adt.LinkedList;
 import adt.ListInterface;
-/**
- *
- * @author Hao Lun
- */
+ 
 public class MatchControl {
 
     private ApplicantControl applicantControl;
@@ -231,3 +228,4 @@ public class MatchControl {
          return allMatches;
      }
 }
+
